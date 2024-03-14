@@ -1,0 +1,14 @@
+section{
+    background-color: red;
+    max-width: 100%;
+}
+.container{
+    background-color: blue;
+    max-width: 1340px;
+}
+.title{
+    background-color: blueviolet;
+}
+h1{
+    font-size: 30px;
+}
