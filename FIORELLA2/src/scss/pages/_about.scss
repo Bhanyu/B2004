@@ -1,0 +1,383 @@
+#aboutus-section{
+
+
+    background-image: url('https://fiorello.qodeinteractive.com/wp-content/uploads/2018/05/p1-title-img.jpg');
+
+    background-attachment: fixed;
+background-position:50% 0px;
+background-repeat: no-repeat;
+overflow: hidden;
+@media (max-width:1024px) {
+  background-position: center 0;
+
+    background-attachment: scroll;
+  background-size: cover;
+ 
+  
+  
+}
+   
+.container{
+   
+    text-align: center;
+    padding: 0;
+   
+   .aboutus-inner{
+  
+    padding: 111px 0;
+    h2{
+        font-size: 50px;
+        font-family: $secFont;
+        font-weight: 400;
+        line-height: 1.32em;
+        color: #0e0e0e;
+        @media (max-width:768px) {
+            font-size: 38px;
+        }
+    }
+    span{
+        margin:  8px 0 0;
+        font-size: 17px;
+        font-weight: 400;
+        font-family: $thirdFont;
+        font-style: italic;
+    }
+   }
+}
+
+}
+
+#valentine-section{
+    background-color: #f7f7f7;
+     .container{
+         padding: 120px 15px;
+      
+         .valentine-content{
+            
+            padding: 28px 10% 0 0;
+            @media (max-width:992px) {
+               padding:0px 22% 80px 30px
+    
+            }
+            .valentine-title{
+                margin-bottom: 32px;
+                h2{
+                    margin-bottom: 19px;
+                    font-size: 38px;
+    line-height: 1.447em;
+    color: #2b2b2b;
+    font-family: $secFont;
+    font-weight: 400;
+    span{
+        color: #ff0000;
+    }
+    @media (max-width:768px) {
+      font-size: 30px;
+        line-height: 1.447em;
+
+    }
+                }
+                p{
+                    margin-top: 27px;
+                    font-size: 17px;
+    line-height: 29px;
+    font-family: $thirdFont;
+    color: #6D6A6A;
+                }
+            }
+          .sara-logo{
+          margin-top: 42px;
+            max-width: 100%;
+            img{
+                max-width: 100%;
+            }
+          }
+           
+        }
+
+         .valentine-video{
+             position: relative;
+             max-width: 100%;
+             @media (max-width:992px) {
+                padding: 0 30px;
+     
+             }
+            a{
+          
+             text-align: center;
+             .valentine-img{
+               
+                 max-width: 100%;
+                overflow: hidden;
+                 img{
+                     width: 100%;
+                     object-fit: cover;
+                     transition: all .4s;
+                   &:hover{
+                     transform: scale(1.04);
+                   }
+                 }
+             }
+          
+     .video-icon{
+         position: absolute;
+        background-color: #fff;
+         top: 50%;
+         left: 50%;
+         width: 103px;
+         height: 103px;
+         border-radius: 50%;
+         text-align: center;
+         transform: translate(-50%, -50%);
+         @media (max-width:768px) {
+             width: 55px;
+             height: 55px;
+ 
+         }
+         span{
+            
+            display: block;
+            border-radius: 50%;
+            width: 100%;
+            height: 100%;
+          padding: 25%;
+           i{
+                 font-size: 48px;
+                color:  $iconColor;
+                @media (max-width:768px) {
+                font-size: 30px;
+     
+             }
+             }
+         }
+     
+     }
+ 
+               
+          
+           
+               
+                
+            } 
+            .modal{
+                .modal-dialog{
+                    max-width: 900px;
+                   
+                    padding-top: 50px;
+                    iframe{
+                        max-width:100%;
+                        height: 540px;
+                        @media (max-width:768px) {
+                            height: auto;
+                        }
+                    }
+                }
+               }
+         }
+        
+     }
+ }
+
+ #flowers-experts{
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 80px;
+    .container{
+      
+        text-align: center;
+        .experts-title{
+         
+            padding: 138px 0 60px;
+            text-align: center;
+            h2{
+                font-size: 38px;
+    line-height: 1.447em;
+    margin: 0 0 19px ;
+    font-family: $secFont;
+font-weight: 400;
+            }
+            p{
+                font-size: 17px;
+    line-height: 29px;
+    margin: 14px auto 0;
+    max-width: 635px;
+   text-align: center;
+    color: $paragraphColor;
+   
+    font-family: $thirdFont;
+    
+            }
+
+        }
+        .experts-card{
+           
+            padding: 0 15px;
+            .expert-img{
+                max-width: 100%;
+                border-radius: 50%;
+                img{
+                    max-width: 100%;
+                    height: auto;
+                    object-fit: cover;
+                    border-radius: 50%;
+                }
+            }
+            .expert-info{
+                margin-top: 18px;
+                font-family: $firstFont;
+                h6{
+                    font-size: 12px;
+                    line-height: 2em;
+                    font-weight: 500;
+                    letter-spacing: .1em;
+                }
+            }
+            span{
+                font-size: 12px;
+    color: #afafaf;
+    margin: 0px 0 4px;
+            }
+        }
+    }
+}
+#florist-swiper{
+    .swiper {
+        width: 100%;
+        height: 100%;
+      max-width: 100%;
+      padding:84px 0 112px ;
+    
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        // display: flex;
+        // justify-content: center;
+        // align-items: center;
+        // flex-direction: column;
+        @include Flexbox($display:flex, $justify-content:center,$align-items:center,$flex-direction:column);
+        position: relative;
+  
+        overflow: hidden;
+     
+    .florist-slide-img{
+        max-width: 100%;
+     
+     overflow: hidden;
+     background-color: $fourthColor;
+   margin-top: 35px;
+   border-radius: 50%;
+        img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 50%;
+           
+          }
+
+
+
+
+
+        }
+        .florist-slide-content{
+          max-width: 656px;
+          p{
+            color: #4b4747;
+    font-family: Lora,serif;
+    font-style: italic;
+    font-size: 24px;
+    line-height: 1.5em;
+    max-width: 100%;
+    margin: 30px 0 35px;
+          } 
+         
+           
+            span{
+                display: block;
+                font-size: 12px;
+                color: #afafaf;
+                line-height: 24px;
+                font-family: $firstFont;
+                text-transform: uppercase;
+                &.florist-name{
+                    color: $primaryColor;
+                }
+            }
+          
+
+        }
+       
+}
+.swiper-button-next{
+
+    right: 22%;
+    @media (max-width:992px) {
+        display: none;
+    }
+  
+    i{
+        
+        color: #0000003f;
+        font-size: 50px;
+        position: absolute;
+        top: 0%;
+        background-color: 
+        #ffffff;
+    }
+}
+.swiper-button-prev{
+
+ 
+    left: 22%;
+    @media (max-width:992px) {
+        display: none;
+    }
+    i{
+        color: #0000003f;
+        position: absolute;
+        background-color: transparent;
+        font-size: 50px ; 
+        background-color: #ffffff;
+    
+    }
+}
+      .slide-content{
+      
+        position: absolute;
+        top:88px;
+        left: 210px;
+        z-index: 1;
+        h2{
+            max-width: 347px;
+    height: 103px;
+    font-family: $secFont;
+    font-weight: 400;
+    font-size: 41px;
+    line-height: 51px;
+    color: $sixthColor;
+        }
+        p{
+            max-width: 429px;
+            height: 89px;
+            padding-top: 9px;
+            line-height: 29px;
+            font-family: $thirdFont;
+            font-weight: 400;
+            font-size: 17px;
+            color: $paragraphColor;
+        }
+        .slide-content-img{
+            max-width: 197px;
+            height: 56px;
+            padding-top: 15px;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+         
+        }
+      }
+     
+    }
+}

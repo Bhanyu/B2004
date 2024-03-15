@@ -1,0 +1,161 @@
+#location-map-section{
+   
+   
+    .map-view{
+      
+        position: relative;
+        width: 100%;
+        min-height: 320px;
+        iframe{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+        }
+        span{
+            position: absolute;
+            left: 50%;
+            top: 32%;
+            i{
+                color: $iconColor;
+                font-size: 45px;
+              
+            }
+        }
+    }
+}
+
+
+#order-section{
+  background-color: #ffffff;
+    .container{
+       
+        padding: 120px 0;
+        @media (max-width:992px) {
+            padding: 120px 30px 120px;
+        }
+        .order-cart{
+           
+            padding: 50px 60px;
+            background-color: #F8F8F8;
+            @media (max-width:992px) {
+                padding: 50px 25px ;
+            }
+            .order-img{
+              
+                text-align: center;
+               margin-bottom: 17px;
+                max-width: 100%;
+                img{
+                    max-width: 100%;
+                    border-radius: 50%;
+                }
+            }
+            .order-inner{
+                
+                text-align: center;
+             
+                h2{
+                   font-size: 38px;
+                   color: #2b2b2b;
+    font-family: $secFont;
+    font-weight: 400;
+    margin: 0 0 19px;
+    line-height: 1.447em;
+    span{
+        color: #f34f3f;
+    }
+                }
+                p{
+                    margin-top: 10px;
+                    font-size: 17px;
+                    line-height: 1.6em;
+                    font-family: $thirdFont;
+                }
+                .sara-logo2{
+                    margin-top: 42px;
+                  
+                    max-width: 100%;
+                    img{
+                        max-width: 100%;
+                    }
+                }
+            }
+        }
+        .order-form-cart{
+           
+            padding: 2px 15px 0 50px;
+            @media (max-width:992px) {
+                padding: 60px 15px 0;
+            }
+            .cart-declaration{
+              
+                margin-bottom: 32px;
+                h2{
+                    font-size: 38px;
+                    color: #2b2b2b;
+     font-family: $secFont;
+     font-weight: 400;
+     margin: 0 0 19px;
+     line-height: 1.447em;
+     
+                 }
+                 p{
+                    
+                    font-size: 17px;
+                    line-height: 1.6em;
+                    font-family: $thirdFont;
+                    color: $paragraphColor;
+                }
+            }
+            .order-form{
+
+form{
+    display: flex;
+    flex-direction: column;
+    input{
+        color: #959595;
+    font-size: 12px;
+    background-color: #fff;
+    border-color: #e8e8e8;
+    width: 100%;
+    margin: 0 0 15px;
+    padding: 19px 18px;
+    font-family: $firstFont;
+    line-height: 20px;
+    border: 1px solid #e8e8e8;
+    }
+   textarea{
+        color: #959595;
+    font-size: 12px;
+    background-color: #fff;
+   
+    width: 100%;
+    margin: 0 0 15px;
+    padding: 19px 18px;
+    font-family: $firstFont;
+    line-height: 20px;
+    border: 1px solid #e8e8e8;
+    }
+    .form-button{
+       
+        margin-top: 5px;
+        button{
+            font-size: 12px;
+            line-height: 60px;
+            font-family: $firstFont;
+            letter-spacing: .1em;
+            font-weight: 500;
+            width: auto;
+            padding: 0 40px;
+            border: none;
+            background-color: $iconColor;
+            color: #fff;
+        }
+    }
+}
+            }
+        }
+    }
+}
