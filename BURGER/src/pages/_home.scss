@@ -1,0 +1,136 @@
+#burger{
+background-color: $secOlor;
+
+       
+        .container{
+      max-width: 1220px;
+      padding-bottom: 20px;
+       
+      .burger-title{
+        position: relative;
+        border-bottom:dotted 1px white;
+       
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+
+
+.burger-image{
+            max-width: 355px;
+        margin-bottom: 30px;
+           
+     img{
+                width: 100%;
+    }
+        }
+       
+           .main-title{
+        display: inline-block;
+       margin-top: 10px;
+         margin-bottom: 40px;
+        
+    
+            h2{
+             
+            padding: 12px 24px 12px 24px;
+             
+            font-size: $fontOne;
+             color: $titColor;
+             width: 100%;
+             line-height: 50px;
+             background-color: $titBack;
+             letter-spacing: -1px;
+    
+            }
+        }
+         
+        }
+       
+        .span{
+            position: absolute;
+           top: 44%;
+            margin: 0 ;
+            left:48%;
+            transform: translate(-50% 50%);
+            background-color: $secOlor;
+            padding: 0 10px;
+
+
+          img{
+            width:100%
+          }
+
+
+        }
+
+
+    .row{
+        
+      
+    .menu-items{
+      border-bottom: dotted 1px white;
+    margin-right: 20px;
+     
+    @media (max-width: 768px) {
+        margin-right: 0;
+     }
+     
+        .menu-content{
+        padding-top: 40px;
+       display: flex;
+        
+       
+            .head{
+                width: 75%;
+               margin: 0 12px 8px;
+        
+               h2{
+                font-size:$fontWo;
+               color: white;
+               line-height: 30px;
+               }
+        
+              }
+        
+              .value{
+              
+           width: 25%;
+           font-family: 'Plus Jakarta Sans', sans-serif;
+           text-align: right;
+           margin:0 12px;
+        
+           h5{
+          color: white;
+          
+          font-size: $fontHree;
+          line-height: 26px;
+       font-weight: 500;
+        }
+            
+           }
+        }
+    
+    .a-span{
+      margin: 0 12px 40px 12px;
+    font-size: $fontFour;
+    color: $aColor;
+     
+    }
+    
+    
+    
+    
+    
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    }
+    }
+    }

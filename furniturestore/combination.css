@@ -1,0 +1,139 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1320px;
+  margin: 40px auto;
+}
+a {
+  text-decoration: none;
+  color: #0b3954;
+}
+.main-elements {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  justify-content: space-evenly;
+}
+.internal-card {
+  background-color: #f5f5f5;
+  padding: 30px 20px;
+  border-radius: 16px;
+  text-align: center;
+  margin-top: 20px;
+  height: auto;
+  position: relative;
+}
+
+.internal-card .card-post {
+  width: 320px;
+  height: auto;
+}
+.furniture-post,
+.furniture-post1,
+.furniture-post3,
+.furniture-post5 .furniture-post2,
+.furniture-post4,
+.furniture-post2 {
+  position: relative;
+}
+
+.furniture-post::before {
+  content: "-17%";
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  padding: 3px 8px;
+  color: #fff;
+  font-size: 12px;
+  font-family: "Poppins", sans-serif;
+  width: auto;
+  height: auto;
+  border-radius: 3px;
+  background-color: #ffb128;
+}
+
+.furniture-post2::before {
+  content: "-18%";
+
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  padding: 3px 8px;
+  color: #fff;
+  font-size: 12px;
+  font-family: "Poppins", sans-serif;
+  width: auto;
+  height: auto;
+  border-radius: 3px;
+  background-color: #ffb128;
+}
+.furniture-post4::before {
+  content: "-9%";
+
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  padding: 3px 8px;
+  color: #fff;
+  font-size: 12px;
+  font-family: "Poppins", sans-serif;
+  width: auto;
+  height: auto;
+  border-radius: 3px;
+  background-color: #ffb128;
+}
+.animasyon {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 20px;
+  left: 300px;
+  visibility: hidden;
+  transform: translateY(60px);
+
+}
+
+.animasyon a {
+  padding: 8px;
+  background-color: #fff;
+  border-radius: 50px;
+  margin-top: 8px;
+}
+.animasyon a i {
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.581);
+}
+.animasyon a i:hover {
+  color: #ffb128;
+}
+.internal-card:hover .animasyon {
+  visibility: visible;
+  transform: translateY(0);
+  transition: 0.3s;
+}
+.text-part {
+  padding: 15px 0px;
+  margin-top: 60px;
+  display: block;
+}
+.text-part span:first-child {
+  font-family: "Sora", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+}
+.text-part span:last-child {
+  display: block;
+  margin-top: 5px;
+  font-family: "Poppins", sans-serif;
+}
+.text-part span i {
+  color: rgb(255, 200, 0);
+  margin-top: 15px;
+}
+i {
+  color: rgb(182, 172, 172);
+}

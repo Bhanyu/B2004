@@ -1,0 +1,369 @@
+#primary{
+    background-color:$thirdColor ;
+
+    .container{
+        background-color:$fourthColor ;
+       
+        .common-part{
+       
+         width: 100%;
+    
+            .background-img{
+               background-color: $fifthColor;
+               
+                overflow: hidden;
+             
+          
+              img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+               transform: scale(1.25) translateY(-10%) ;
+              display: block;
+            
+               
+              }
+               
+              .overlay{
+                width: 100%;
+                height: 100%;
+                background-color: $fourthColor;
+                position:absolute;
+                top: 0;
+                left: 0;
+                z-index: 0;
+            }
+            }
+         
+
+            .register-part{
+               position: absolute;
+                top: 24%;
+              text-align: center;
+              
+            width: 100%;
+              
+               padding: 9.875rem 0 4rem;
+
+               .parametrs{
+               color:$firstColor;
+              
+               h1{
+                font-size: 3rem;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+               }
+               p{
+                font-size: 1.5rem;
+    font-weight: 400;
+    margin: 1rem 0 0;
+    font-family: 'Roboto', sans-serif;
+               }
+               h3{
+                font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    font-family: 'Roboto', sans-serif;
+    margin: 1.5rem 0 0;
+               }
+              
+                
+               
+
+               }
+               .email-form{
+             
+                margin: 1rem auto 0;
+             
+              
+                width: 100%;
+                @include Flexbox($display:flex, $justify-content:center, $align-items:center);
+              
+                form{
+                    
+                    width: 45%;
+                
+                    @include Flexbox($display:flex, $justify-content:center, $align-items:center);
+                    
+                    input{
+                        padding:19px 24px ;
+                        width: 50%;
+                          background-color: rgba(0, 0, 0, 0.608) ;
+                          color: $firstColor;
+                          border: 0.1px solid $firstColor; 
+                          border-radius: 5px;
+                    }
+                    button{
+                        padding: 12px 24px;
+                        @include Flexbox($display:inline-flex, $justify-content:space-between, $align-items:center);
+                        font-size: 1.5rem;
+                        margin-left: 0.5rem;
+                        background-color:$thirdColor;
+                        color: $firstColor;
+                      border-radius: 0.25rem;
+                     border-color: $thirdColor;
+                     font-family: 'Roboto', sans-serif;
+                     i{
+                        font-size: 1.5rem;
+                        margin-left: 1px;
+                        color: $firstColor;
+                     }
+                    }
+                }
+               }
+            }
+        }
+      
+    }
+}
+
+
+#second-part{
+    background-color: $sixthColor;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    .movies-info{
+      
+        padding: 4.5rem 0;
+        .container{
+        
+            max-width: 1200px;
+            @include Flexbox($display:flex, $flex-direction:row);
+            margin: 0 auto;
+            .content{
+             
+            
+               text-align: left;
+               padding: 0 0.375rem ;
+               
+               color: $firstColor;
+               @include Flexbox($display:flex, $justify-content:center, $align-items:left, $flex-direction:column);
+              
+               h2{
+                font-size: 3rem;
+                font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+               }
+               p{
+                margin-top: 1rem;
+                font-size: 1.5rem;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+               }
+            }
+            .movies{
+                position: relative;
+                z-index: 1;
+                padding: 0 0.375rem;
+                .tv{
+                 
+                    img{
+                        display: block;
+                       
+                    }
+                    
+                }
+                .video{
+                    position: absolute;
+                    z-index: -1;
+                    top: 20%;
+                    left: 12%;
+                  
+                    }
+                   
+                    .phone{
+                   
+                        position: relative;
+                        .stranger-things{
+                            min-width: 50%;
+                            background-color: $sixthColor;
+                            padding: 0.5rem 0.75rem;
+    position: absolute;
+    bottom: 50px;
+    left:25%;
+    @include Flexbox($display:flex,);
+    border: 2px solid $seventhColor;
+    border-radius: 0.75rem;
+    
+    align-items: center;
+    .logo{
+        margin: 0 1rem 0 0;
+        img{
+            height: 4.5rem;
+        }
+    }
+    .download{
+        color: $firstColor;
+        margin: 0.3rem 0;
+        p{
+            color: $eigthColor;
+        font-weight: 500;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1rem;
+        }
+        span{
+            font-weight: 400;
+            font-family: 'Roboto', sans-serif;
+            color: $ninethColor;
+            font-size: 0.875rem;
+        }
+    }
+    .animation{
+        height: 3.75rem;
+        width: 3rem;
+        background-color: $thirdColor;
+        margin-left: auto;
+        background: url("https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif") ;
+        background-repeat: repeat;
+        background-size: 100%;
+        background-position: center;
+    }
+                        }
+                    }
+
+                   .second{
+                    position: absolute;
+                    top: 48px;
+                    left: 18%;
+                    z-index: -1;
+                    max-width: 63%;
+                    max-height: 47%;
+                    overflow: hidden;
+                   
+                   }
+               
+                }
+               
+              
+            }
+        }
+
+
+    
+    }
+
+    
+    #third-part{
+        .second-container{
+            background-color: $sixthColor;
+             padding: 4.5rem 0;
+             .common{
+                 background-color: $sixthColor;
+                 max-width: calc( 83.33333333333334% - 6rem );
+                 margin: 0 auto;
+                
+                 h2{
+                     font-size: 3rem;
+                     font-weight: 900;
+                     font-family: 'Roboto', sans-serif;
+                     color: $firstColor;
+                     text-align: center;
+                 }
+                 .accordions{
+                     
+                     margin: 1.5rem 0;
+                     ul{
+ 
+                         .faq{
+                           
+                             margin-bottom: 0.5rem;
+                             background-color: #2D2D2D;
+                             &.active{
+                                 .content{
+                                     max-height: 75rem;
+                                     padding: 1.5rem;
+                                 }
+                             }
+                           
+                             a{
+                                
+                                 font-size: 20px;
+                                 font-family: 'Roboto', sans-serif;
+                                 
+                                 .question{
+                                     display: flex;
+                                     justify-content: space-between;
+                                     padding: 1.5rem;
+                                     h3{
+                                         font-weight: 400;
+                                     }
+ 
+                                     
+                                 }
+                                
+                             }
+ 
+                             .content{
+                                max-height: 0px;
+                                overflow: hidden;
+                                transition: all .3s;
+                                 p{
+                                  
+                                     color: $firstColor;
+                                     font-size: 1.5rem;
+                                     font-family: 'Roboto', sans-serif;
+                                 }
+                             }
+                         }
+ 
+                     }
+                 }
+             }
+ 
+             .writing-form{
+                margin-top: 2.85rem;
+                 text-align: center;
+                
+                 h3{
+                     font-family: 'Roboto', sans-serif;
+                     font-size: 1.25rem;
+                     color: $firstColor;
+     font-weight: 400;
+     line-height: 1.875rem;
+                 }
+                 .start{
+                     display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    
+                     margin: 1rem 0;
+                   form{
+                     @include Flexbox($display:flex, $justify-content:center, $align-items:center);
+                     width: 45%;
+                    
+                     input{
+                         padding:19px 24px ;
+                        width: 50%;
+                          background-color: rgba(0, 0, 0, 0.608) ;
+                          color: $firstColor;
+                          border: 0.1px solid $firstColor; 
+                          border-radius: 5px;
+                        }
+ 
+                        button{
+                         padding: 12px 24px;
+                         @include Flexbox($display:inline-flex, $justify-content:space-between, $align-items:center);
+                         font-size: 1.5rem;
+                         margin-left: 0.5rem;
+                         background-color:$thirdColor;
+                         color: $firstColor;
+                       border-radius: 0.25rem;
+                      border-color: $thirdColor;
+                      font-family: 'Roboto', sans-serif;
+                      i{
+                         font-size: 1.5rem;
+                         margin-left: 1px;
+                         color: $firstColor;
+                      }
+                     }
+ 
+ 
+                    
+                   }
+                   
+                 }
+             }
+         }
+    }
+    

@@ -1,0 +1,354 @@
+footer{
+    background-color: #FFF;
+        padding-top: 64px;
+        @media (max-width:768px) {
+            padding-top: 40px;
+         }
+        .container{
+           
+        
+         padding-top: 5px;
+     
+        
+            .contact-menu{
+            
+             @media (max-width:768px) {
+                margin-bottom: 40px;
+             }
+            
+                .logo2{
+                    margin-bottom: 8px;
+                }
+                .text{
+                    margin-bottom: 22px;
+                    
+                    @media (max-width:992px) {
+                       padding-right: 100px;
+                     }
+                    p{
+                        color: $fourthColor;
+    font-size: 12px;
+    font-family: $secondFont;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+                    }
+                }
+                .phone{
+                    margin-bottom: 20px;
+                    // display: flex;
+                   
+                    // align-items: center;
+                    @include Flexpart($display:flex,  $align-items:center);
+                    span{
+                      margin-right: 12px;
+                    }
+                    .number{
+                        // display: flex;
+                        // justify-content: center;
+                        // flex-direction: column;
+                        @include Flexpart($display:flex, $justify-content:space-between, $flex-direction:column);
+                        h5{
+                            color: $firstColor;
+    
+    
+    font-size: 12px;
+    font-family: $secondFont;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+                        }
+                        span{
+                           
+                            color: $fourthColor;
+    
+    
+    font-size: 12px;
+    font-family: $secondFont;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+                        }
+                    }
+    
+                }
+                .email{
+                  margin-bottom: 20px;
+                    // display: flex;
+                    // align-items: center;
+                    @include Flexpart($display:flex,  $align-items:center);
+                   
+                    span{
+                        margin-right: 12px;
+                    }
+                    .mail{
+                       
+    // display: flex;
+    // justify-content: center;
+    // flex-direction: column;
+    @include Flexpart($display:flex, $justify-content:center, $flex-direction:column);
+                       
+                            h5{
+                                color: $firstColor;
+       
+        
+        font-size: 12px;
+        font-family: $secondFont;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+                            }
+                            span{
+                               
+                                color: $fourthColor;
+       
+        
+        font-size: 12px;
+        font-family: $secondFont;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+                            }
+                        
+                    }
+                }
+                .navigator{
+                 
+                    // display: flex;
+                    // align-items: center;
+                    @include Flexpart($display:flex,  $align-items:center);
+                    span{
+                        margin-right: 12px;
+                    }
+                    .address{
+                       
+                        // display: flex;
+                        // justify-content: center;
+                        // flex-direction: column;
+    
+                        @include Flexpart($display:flex, $justify-content:center, $flex-direction:column);
+                                           
+                                                h5{
+                                                    color: $firstColor;
+                           
+                            
+                            font-size: 12px;
+                            font-family: $secondFont;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                                                }
+                                                span{
+                                                   
+                                                    color: $fourthColor;
+                           
+                            
+                            font-size: 12px;
+                            font-family: $secondFont;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                                                }
+                                            
+                                        }
+                }
+            }
+            .company-list{
+           
+                // display: flex;
+                // justify-content: space-evenly;
+                // align-items: center;
+                @include Flexpart($display:flex, $justify-content:space-evenly, $align-items:center);
+                @media (max-width:768px) {
+                    // justify-content: space-between;
+                    @include Flexpart( $justify-content:space-between, );
+                    margin-bottom: 40px;
+                 }
+                 @media (min-width:768px) {
+                    @include Flexpart( $justify-content:space-around );
+                    margin-bottom: 40px;
+                 }
+                
+                .company{
+          
+                    @media (max-width:768px) {
+                        margin-right:64px;
+                     }
+                    ul{
+                     
+                      
+                      li{
+                        margin: 25px 0;
+                        &:first-child{
+                            margin: 0;
+                        }
+                   
+                        a{
+                            color: $fourthColor;
+    
+                           
+    font-size: 12px;
+    font-family: $secondFont;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+    
+    
+                        
+                      }
+                      .active{
+                        color: $firstColor;
+    font-family: $secondFont;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+                      }
+                        
+                      
+                      }
+                    }
+                }
+                .service2{
+                   
+                    ul{
+                       
+                        margin-top: 0;
+                        li{
+                            margin: 25px 0;
+                            &:first-child{
+                                margin: 0;
+                            }
+                       
+                            a{
+                                color: $fourthColor;
+        
+                               
+        font-size: 12px;
+        font-family: $secondFont;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        
+        
+        
+                            
+                          }
+                          .active{
+                            color:$firstColor;
+        font-family: $secondFont;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+                          }
+                            
+                          
+                          }
+                }
+            }
+        }
+        .letter{
+        
+        
+            .info{
+                padding-right: 100px;
+               
+                .news{
+                 
+                    color: $firstColor;
+            font-size: 12px;
+            font-family: $secondFont;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+                   }
+                   span{
+                    color: $fourthColor;
+            font-size: 12px;
+            font-family: $secondFont;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px;
+            
+                   }
+            }
+         
+          
+           .main-form{
+            margin-top: 12px;
+           
+          
+            form{
+             
+            //    display: flex;
+            //  justify-content: space-between;
+            @include Flexpart($display:flex, $justify-content:space-between);
+              input{
+           padding: 8px 0 8px 15px;
+            width: 100%;
+               border-radius: 4px;
+             border: none;
+             border: 1px solid rgba(0, 0, 0, 0.08);
+
+            
+              }
+              button{
+                margin-left: 8px;
+                padding: 8px;
+                background-color: $backColor;
+                border:none;
+                border-radius: 2px;
+              }
+            }
+           }
+           .social-media{
+       
+            margin-top: 36px;
+            @media (max-width:768px) {
+                margin-top: 40px;
+                margin-bottom: 32px;
+             }
+           
+          p{
+            color: $firstColor;
+    font-family: $secondFont;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+          }
+          .scicons{
+      
+            margin-top: 16px;
+    
+            a{
+              img{
+                border-radius: 24.621px;
+                background: $secondColor;
+                padding: 5.3px;
+              }
+            }
+          }
+           }
+        }
+        .rights{
+          
+            text-align: center;
+            margin: 24px 0 20px;
+            @media (max-width:768px) {
+               margin-top: 20px ;
+             }
+            span{
+                color: $fourthColor;
+    
+    
+    font-family: $secondFont;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+            }
+        }
+    }}

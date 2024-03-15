@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #79171D;
+}
+
+#burger {
+  background-color: #79171D;
+}
+#burger .container {
+  max-width: 1220px;
+  padding-bottom: 20px;
+}
+#burger .container .burger-title {
+  position: relative;
+  border-bottom: dotted 1px white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#burger .container .burger-title .burger-image {
+  max-width: 355px;
+  margin-bottom: 30px;
+}
+#burger .container .burger-title .burger-image img {
+  width: 100%;
+}
+#burger .container .burger-title .main-title {
+  display: inline-block;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+#burger .container .burger-title .main-title h2 {
+  padding: 12px 24px 12px 24px;
+  font-size: 45px;
+  color: #363332;
+  width: 100%;
+  line-height: 50px;
+  background-color: #FFC547;
+  letter-spacing: -1px;
+}
+#burger .container .span {
+  position: absolute;
+  top: 44%;
+  margin: 0;
+  left: 48%;
+  transform: translate(-50% 50%);
+  background-color: #79171D;
+  padding: 0 10px;
+}
+#burger .container .span img {
+  width: 100%;
+}
+#burger .container .row .menu-items {
+  border-bottom: dotted 1px white;
+  margin-right: 20px;
+}
+@media (max-width: 768px) {
+  #burger .container .row .menu-items {
+    margin-right: 0;
+  }
+}
+#burger .container .row .menu-items .menu-content {
+  padding-top: 40px;
+  display: flex;
+}
+#burger .container .row .menu-items .menu-content .head {
+  width: 75%;
+  margin: 0 12px 8px;
+}
+#burger .container .row .menu-items .menu-content .head h2 {
+  font-size: 25px;
+  color: white;
+  line-height: 30px;
+}
+#burger .container .row .menu-items .menu-content .value {
+  width: 25%;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  text-align: right;
+  margin: 0 12px;
+}
+#burger .container .row .menu-items .menu-content .value h5 {
+  color: white;
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 500;
+}
+#burger .container .row .menu-items .a-span {
+  margin: 0 12px 40px 12px;
+  font-size: 14px;
+  color: #B2787C;
+}/*# sourceMappingURL=style.css.map */

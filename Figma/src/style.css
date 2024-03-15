@@ -1,0 +1,821 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #FFF;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+@media (max-width: 992px) {
+  .container {
+    max-width: 100%;
+  }
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+#first-section {
+  background-color: #F6F6F6;
+}
+#first-section .container .inner-title {
+  padding: 57px 0 56px;
+}
+#first-section .container .inner-title h2 {
+  color: #38343D;
+  margin-bottom: 33px;
+  font-size: 48px;
+  font-family: "Cardo", serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 54px;
+}
+#first-section .container .inner-title span {
+  color: #818181;
+  font-size: 16px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+#second-section {
+  background-color: #FFF;
+  padding: 100px 0;
+}
+@media (min-width: 768px) {
+  #second-section .container .img1 {
+    margin: 28% 0 0;
+  }
+}
+@media (min-width: 992px) {
+  #second-section .container .img1 {
+    margin: 0;
+  }
+}
+#second-section .container .img1 img {
+  width: 100%;
+}
+#second-section .container .content {
+  margin-left: 50px;
+  padding-top: 62px;
+}
+@media (max-width: 768px) {
+  #second-section .container .content {
+    margin-left: 0;
+  }
+}
+@media (min-width: 768px) {
+  #second-section .container .content {
+    padding-top: 0;
+    margin-left: 40px;
+  }
+}
+@media (min-width: 768px) {
+  #second-section .container .content {
+    padding-top: 62px;
+  }
+}
+#second-section .container .content .part-title {
+  margin-bottom: 30px;
+  padding-right: 8px;
+}
+#second-section .container .content .part-title h3 {
+  color: #38343D;
+  font-size: 38px;
+  font-family: "Cardo", serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+#second-section .container .content .paragraph {
+  padding-right: 60px;
+  padding-top: 30px;
+}
+#second-section .container .content .paragraph p {
+  color: #818181;
+  font-size: 14px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+#third-section {
+  background: #F6F6F6;
+  padding: 69px 0 93px;
+}
+#third-section .container {
+  text-align: center;
+}
+#third-section .container .service {
+  margin-bottom: 49px;
+}
+#third-section .container .service h2 {
+  color: #38343D;
+  font-size: 48px;
+  font-family: "Cardo", serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 54px;
+}
+#third-section .container .cards .card {
+  padding-top: 62px;
+  padding-bottom: 61px;
+  border-radius: 12px;
+}
+#third-section .container .cards .card .icon {
+  margin-bottom: 30px;
+}
+#third-section .container .cards .card .icon img {
+  padding: 18px;
+  border-radius: 68px;
+  background: #F2DFD5;
+}
+#third-section .container .cards .card .content2 h4 {
+  color: #38343D;
+  text-align: center;
+  font-size: 24px;
+  font-family: "Cardo", serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+#third-section .container .cards .card .content2 p {
+  margin: 12px 37px 0;
+  color: #38343D;
+  text-align: center;
+  font-size: 14px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+#fourth-section {
+  background-color: #FFF;
+  padding-top: 100px;
+}
+#fourth-section .container .agent {
+  margin-bottom: 24px;
+}
+@media (max-width: 768px) {
+  #fourth-section .container .agent {
+    text-align: center;
+    margin-bottom: 0;
+  }
+}
+#fourth-section .container .agent h2 {
+  color: #38343D;
+  font-size: 48px;
+  font-family: "Cardo", serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 54px;
+}
+#fourth-section .container .card {
+  border: none;
+  text-align: center;
+  border-radius: 0;
+}
+@media (max-width: 768px) {
+  #fourth-section .container .card {
+    margin-top: 40px;
+  }
+}
+#fourth-section .container .card .img2 {
+  margin-bottom: 24px;
+}
+#fourth-section .container .card .img2 .showing {
+  display: block;
+}
+#fourth-section .container .card .img2 img {
+  width: 100%;
+}
+@media (max-width: 768px) {
+  #fourth-section .container .card .img2 img {
+    display: none;
+  }
+}
+#fourth-section .container .card .img2 .hidden {
+  display: none;
+}
+@media (max-width: 768px) {
+  #fourth-section .container .card .img2 .hidden {
+    display: block;
+  }
+}
+#fourth-section .container .card .content3 p {
+  margin-bottom: 8px;
+  color: #38343D;
+  font-size: 18px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+#fourth-section .container .card .content3 span {
+  margin-bottom: 12px;
+  color: #38343D;
+  font-size: 16px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+#fourth-section .container .card .content3 .icon2 {
+  margin-top: 12px;
+}
+#fourth-section .container .card .content3 .icon2 a img {
+  border-radius: 24.621px;
+  background: #DE8556;
+  padding: 5.3px;
+}
+
+#fifth-section {
+  background-color: #FFF;
+  padding-top: 100px;
+}
+#fifth-section .container .properties {
+  margin-bottom: 24px;
+}
+@media (max-width: 768px) {
+  #fifth-section .container .properties {
+    margin-bottom: 0px;
+  }
+}
+#fifth-section .container .properties h2 {
+  color: #38343D;
+  font-size: 48px;
+  font-family: "Cardo", serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 54px;
+}
+@media (max-width: 768px) {
+  #fifth-section .container .properties h2 {
+    font-size: 30px;
+  }
+}
+@media (min-width: 768px) {
+  #fifth-section .container .properties h2 {
+    font-size: 48px;
+  }
+}
+#fifth-section .container .card {
+  text-align: center;
+  padding-top: 8px;
+  padding-bottom: 18px;
+}
+@media (max-width: 768px) {
+  #fifth-section .container .card {
+    margin-top: 24px;
+  }
+}
+#fifth-section .container .card .img3 {
+  padding: 0 8px;
+}
+#fifth-section .container .card .img3 img {
+  width: 100%;
+}
+#fifth-section .container .card .content4 {
+  text-align: left;
+  padding-top: 16px;
+  padding-left: 24px;
+}
+#fifth-section .container .card .content4 .rent {
+  padding: 4px 12px;
+  border-radius: 2px;
+  background: #F9F2EE;
+  color: #DE8556;
+}
+#fifth-section .container .card .content4 p {
+  margin-top: 16px;
+  color: #38343D;
+  font-size: 24px;
+  font-family: "Cardo", serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+#fifth-section .container .card .content4 .location {
+  display: flex;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  margin-bottom: 21px;
+}
+#fifth-section .container .card .content4 .location .loc {
+  margin-right: 7px;
+  display: inline-flex;
+}
+#fifth-section .container .card .content4 .location span {
+  color: #818181;
+  font-size: 14px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+#fifth-section .container .card .content4 .extras {
+  display: flex;
+  margin-bottom: 22px;
+  color: #38343D;
+  font-size: 12px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.24px;
+}
+#fifth-section .container .card .content4 .extras .bath {
+  margin: 0 25px;
+}
+#fifth-section .container .card .content4 .price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 16px;
+}
+#fifth-section .container .card .content4 .price p {
+  color: #818181;
+  font-size: 12px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+#fifth-section .container .card .content4 .price p span {
+  color: #DE8556;
+  font-size: 20px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+#fifth-section .container .card .content4 .price .datail {
+  padding: 12px 28px;
+  border-radius: 2px;
+  border: 1px solid #DE8556;
+  color: #DE8556;
+  font-size: 14px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+#fifth-section .container .dream-home {
+  background-color: #123E56;
+  margin-top: 80px;
+}
+@media (max-width: 768px) {
+  #fifth-section .container .dream-home {
+    text-align: center;
+  }
+}
+@media (min-width: 768px) {
+  #fifth-section .container .dream-home {
+    text-align: center;
+  }
+}
+@media (max-width: 768px) {
+  #fifth-section .container .dream-home .home-img {
+    display: none;
+  }
+}
+@media (min-width: 768px) {
+  #fifth-section .container .dream-home .home-img {
+    display: none;
+  }
+}
+@media (min-width: 992px) {
+  #fifth-section .container .dream-home .home-img {
+    display: block;
+  }
+}
+#fifth-section .container .dream-home .question-content {
+  margin-left: 15px;
+  margin-top: 58px;
+}
+@media (max-width: 992px) {
+  #fifth-section .container .dream-home .question-content {
+    margin: 40px 29px 0;
+  }
+}
+#fifth-section .container .dream-home .question-content h2 {
+  margin-bottom: 18px;
+  color: #FFF;
+  font-size: 38px;
+  font-family: "Cardo", serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+#fifth-section .container .dream-home .question-content .span {
+  color: #FFF;
+  text-align: center;
+  font-size: 14px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+@media (max-width: 992px) {
+  #fifth-section .container .dream-home .question-content .span {
+    padding: 0 18px;
+  }
+}
+#fifth-section .container .dream-home .link {
+  margin-top: 79px;
+  margin-right: 47px;
+  display: inline-flex;
+}
+@media (max-width: 992px) {
+  #fifth-section .container .dream-home .link {
+    margin: 20px auto 45px;
+  }
+}
+#fifth-section .container .dream-home .link a {
+  border-radius: 2px;
+  background: #DE8556;
+  padding: 16px 39px;
+  color: #FFF;
+  text-align: center;
+  font-size: 14px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+header {
+  background-color: #FFFFFF;
+}
+header .container {
+  padding-top: 32px;
+  padding-bottom: 26px;
+}
+header .container .main-menu {
+  height: 42px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media (max-width: 768px) {
+  header .container .main-menu nav {
+    display: none;
+  }
+}
+@media (min-width: 768px) {
+  header .container .main-menu nav {
+    display: none;
+  }
+}
+@media (min-width: 1200px) {
+  header .container .main-menu nav {
+    display: block;
+  }
+}
+header .container .main-menu nav .menu-list {
+  margin: auto 0;
+  display: flex;
+}
+header .container .main-menu nav .menu-list li {
+  margin: 0 32px;
+}
+header .container .main-menu nav .menu-list li a {
+  color: #38343D;
+  font-size: 14px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+header .container .main-menu .buttons {
+  display: flex;
+  align-items: center;
+}
+header .container .main-menu .buttons .shop {
+  margin-right: 24px;
+  padding: 7px 8px 9px;
+  border-radius: 20px;
+  background: #FFF;
+  box-shadow: -1px 1px 15px 0px rgba(9, 20, 49, 0.11);
+}
+header .container .main-menu .buttons .sign {
+  margin-right: 24px;
+  color: #38343D;
+}
+@media (max-width: 768px) {
+  header .container .main-menu .buttons .sign {
+    display: none;
+  }
+}
+header .container .main-menu .buttons .register {
+  background-color: #DE8556;
+  color: #FFFFFF;
+  padding: 12px 28px;
+  border-radius: 2px;
+}
+@media (max-width: 768px) {
+  header .container .main-menu .buttons .register {
+    display: none;
+  }
+}
+header .container .main-menu .buttons .frame {
+  display: none;
+}
+@media (max-width: 768px) {
+  header .container .main-menu .buttons .frame {
+    display: block;
+    padding: 8px;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: -1px 1px 15px 0px rgba(9, 20, 49, 0.11);
+  }
+}
+
+footer {
+  background-color: #FFF;
+  padding-top: 64px;
+}
+@media (max-width: 768px) {
+  footer {
+    padding-top: 40px;
+  }
+}
+footer .container {
+  padding-top: 5px;
+}
+@media (max-width: 768px) {
+  footer .container .contact-menu {
+    margin-bottom: 40px;
+  }
+}
+footer .container .contact-menu .logo2 {
+  margin-bottom: 8px;
+}
+footer .container .contact-menu .text {
+  margin-bottom: 22px;
+}
+@media (max-width: 992px) {
+  footer .container .contact-menu .text {
+    padding-right: 100px;
+  }
+}
+footer .container .contact-menu .text p {
+  color: #818181;
+  font-size: 12px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+footer .container .contact-menu .phone {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+footer .container .contact-menu .phone span {
+  margin-right: 12px;
+}
+footer .container .contact-menu .phone .number {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+footer .container .contact-menu .phone .number h5 {
+  color: #38343D;
+  font-size: 12px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+footer .container .contact-menu .phone .number span {
+  color: #818181;
+  font-size: 12px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+footer .container .contact-menu .email {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+footer .container .contact-menu .email span {
+  margin-right: 12px;
+}
+footer .container .contact-menu .email .mail {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+footer .container .contact-menu .email .mail h5 {
+  color: #38343D;
+  font-size: 12px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+footer .container .contact-menu .email .mail span {
+  color: #818181;
+  font-size: 12px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+footer .container .contact-menu .navigator {
+  display: flex;
+  align-items: center;
+}
+footer .container .contact-menu .navigator span {
+  margin-right: 12px;
+}
+footer .container .contact-menu .navigator .address {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+footer .container .contact-menu .navigator .address h5 {
+  color: #38343D;
+  font-size: 12px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+footer .container .contact-menu .navigator .address span {
+  color: #818181;
+  font-size: 12px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+footer .container .company-list {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+@media (max-width: 768px) {
+  footer .container .company-list {
+    justify-content: space-between;
+    margin-bottom: 40px;
+  }
+}
+@media (min-width: 768px) {
+  footer .container .company-list {
+    justify-content: space-around;
+    margin-bottom: 40px;
+  }
+}
+@media (max-width: 768px) {
+  footer .container .company-list .company {
+    margin-right: 64px;
+  }
+}
+footer .container .company-list .company ul li {
+  margin: 25px 0;
+}
+footer .container .company-list .company ul li:first-child {
+  margin: 0;
+}
+footer .container .company-list .company ul li a {
+  color: #818181;
+  font-size: 12px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+footer .container .company-list .company ul li .active {
+  color: #38343D;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+footer .container .company-list .service2 ul {
+  margin-top: 0;
+}
+footer .container .company-list .service2 ul li {
+  margin: 25px 0;
+}
+footer .container .company-list .service2 ul li:first-child {
+  margin: 0;
+}
+footer .container .company-list .service2 ul li a {
+  color: #818181;
+  font-size: 12px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+footer .container .company-list .service2 ul li .active {
+  color: #38343D;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+footer .container .letter .info {
+  padding-right: 100px;
+}
+footer .container .letter .info .news {
+  color: #38343D;
+  font-size: 12px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+footer .container .letter .info span {
+  color: #818181;
+  font-size: 12px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+footer .container .letter .main-form {
+  margin-top: 12px;
+}
+footer .container .letter .main-form form {
+  display: flex;
+  justify-content: space-between;
+}
+footer .container .letter .main-form form input {
+  padding: 8px 0 8px 15px;
+  width: 100%;
+  border-radius: 4px;
+  border: none;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+}
+footer .container .letter .main-form form button {
+  margin-left: 8px;
+  padding: 8px;
+  background-color: #123E56;
+  border: none;
+  border-radius: 2px;
+}
+footer .container .letter .social-media {
+  margin-top: 36px;
+}
+@media (max-width: 768px) {
+  footer .container .letter .social-media {
+    margin-top: 40px;
+    margin-bottom: 32px;
+  }
+}
+footer .container .letter .social-media p {
+  color: #38343D;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+footer .container .letter .social-media .scicons {
+  margin-top: 16px;
+}
+footer .container .letter .social-media .scicons a img {
+  border-radius: 24.621px;
+  background: #DE8556;
+  padding: 5.3px;
+}
+footer .container .rights {
+  text-align: center;
+  margin: 24px 0 20px;
+}
+@media (max-width: 768px) {
+  footer .container .rights {
+    margin-top: 20px;
+  }
+}
+footer .container .rights span {
+  color: #818181;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,94 @@
+header{
+   background-color: $thirdColor;
+    .container{
+       
+     padding-top: 32px;
+     padding-bottom: 26px;
+        .main-menu{
+           
+            height: 42px;
+            // display: flex;
+            // justify-content: space-between;
+            // align-items: center;
+            @include Flexpart($display:flex, $justify-content:space-between, $align-items:center);
+            nav{
+               
+            @media (max-width:768px) {
+                display: none;
+            }
+            @media (min-width:768px) {
+                display: none;
+              }
+              @media (min-width:1200px) {
+                display: block;
+              }
+           
+               
+                .menu-list{
+                   margin: auto 0;
+                    display: flex;
+                
+                 
+                    li{
+                  
+                        margin: 0 32px;
+                        a{
+                        color: $firstColor;
+                           font-size: 14px;
+font-family: $secondFont;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+                        }
+                    }
+                    
+                }
+            }
+        .buttons{
+           
+            @include Flexpart($display:flex,$align-items:center);
+         
+            // justify-content: space-between;
+            // align-items: center;
+            .shop{
+                margin-right: 24px;
+                padding: 7px 8px 9px;
+                border-radius: 20px;
+                background: #FFF;
+box-shadow: -1px 1px 15px 0px rgba(9, 20, 49, 0.11);
+            }
+            .sign{
+                margin-right: 24px;
+                color: $firstColor;
+                @media (max-width:768px) {
+                    display: none;
+                }
+            }
+            .register{
+                background-color: $secondColor;
+                color: $thirdColor;
+                padding: 12px 28px;
+                border-radius: 2px;
+                @media (max-width:768px) {
+                    display: none;
+                }
+
+            }
+            .frame{
+                display: none;
+                @media (max-width:768px) {
+                    display: block;
+                    padding: 8px;
+                    border-radius: 20px;
+background: #FFF;
+box-shadow: -1px 1px 15px 0px rgba(9, 20, 49, 0.11);
+                }
+            }
+
+            
+        }
+        }
+
+        
+    }
+}

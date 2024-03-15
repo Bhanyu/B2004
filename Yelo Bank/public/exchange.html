@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="../src/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header id="exchange-header">
+      <div class="head-top">
+        <div class="container">
+          <div class="top-nav">
+            <ul>
+              <li><a class="active" href="#">Fərdi</a></li>
+              <li><a href="#">Biznes</a></li>
+              <li><a href="#">Bank Haqqında</a></li>
+            </ul>
+          </div>
+          <div class="top-right">
+            <ul>
+              <li  class="onlaynovbe"><a href="#">Onlayn növbə</a></li>
+              <li class="atm">
+                <a  href="#"
+                  ><img
+                    src="https://www.yelo.az/site/assets/files/1251/ht_location.svg"
+                    alt=""
+                  />ATM və Filiallar</a
+                >
+              </li>
+              <li>
+                <a class="call-link" href="#"
+                  ><img
+                    src="https://www.yelo.az/site/templates/style/img/ht_call.svg"
+                    alt=""
+                  /><span> 981</span></a
+                >
+              </li>
+              <li class="search">
+                <a href="#"
+                  ><img
+                    src="https://www.yelo.az/site/templates/style/img/search_header.svg"
+                    alt=""
+                /></a>
+              </li>
+              <li class="lang">
+                <a href="#"
+                  ><select name="lang" id="lang">
+                    <option value="AZ">AZ</option>
+                    <option value="EN">EN</option>
+                    <option value="RU">RU</option>
+                  </select></a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="head-bottom">
+        <div class="head-core">
+          <div class="container">
+            <div class="logo-side">
+              <a href="#"
+                ><img
+                  src="https://www.yelo.az/site/templates/style/img/logo.svg"
+              /></a>
+            </div>
+           
+            <div class="head-right">
+              <a class="email" href="#">
+ <img src="https://www.yelo.az/site/templates/style/img/message_trigger.svg" alt="">
+              </a>
+              <a class="internet-bank" href="#"
+                ><img
+                  class="show"
+                  src="https://www.yelo.az/site/templates/style/img/o_banking.svg"
+                  alt=""
+                />
+                <img
+                  class="hide"
+                  src="https://www.yelo.az/site/templates/style/img/o_banking_white.svg"
+                  alt=""
+                />
+                <span>Internet Bank</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section id="exchange-head">
+      <div class="page-title container">
+        <h1>Valyuta Məzənnəsi</h1>
+        <p>
+          Bu günə olan online valyuta məzənnəsi - Daha uyğun pul məzənnələri
+          üçün Yelo Bankı seçin. Nağdlı və nağdsız məzənnə tariflərində
+          üstünlüklərdən yararlanın.
+        </p>
+        <div class="pay-kind">
+          <ul>
+            <li><a class="active" href="#">Nağd</a></li>
+            <li><a href="#">Nağdsiz</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="page-content">
+      <div class="container">
+        <div class="large-calculator">
+          <a class="turn-arrows" href="#"></a>
+          <div class="input-side">
+            <input type="text" placeholder="Satiram" class="sell_input" />
+            <select class="choose" name="from">
+              <option value="azn" selected>AZN</option>
+              <option value="usd">USD</option>
+              <option value="eur">EUR</option>
+            </select>
+          </div>
+          <div class="input-side">
+          <div class="aliram">Aliram</div>
+            <select class="choose" name="from">
+              <option value="azn">AZN</option>
+              <option value="usd" selected>USD</option>
+              <option value="eur">EUR</option>
+            </select>
+          </div>
+        </div>
+        <div class="large-calc-table">
+          <table>
+            <tbody>
+              <tr>
+                <th>
+                  <div class="thead"><p>Valyuta</p></div>
+                </th>
+                <th>
+                  <div class="thead"><p>Alış</p></div>
+                </th>
+                <th class="delete">
+                  <div class="thead"><p>Satış</p></div>
+                </th>
+                <th class="delete">
+                  <div class="thead"><p>MB</p></div>
+                </th>
+              </tr>
+              <tr >
+                <td class="padd">
+                  <div class="tdata">
+                    <p>USD</p>
+                  </div>
+                </td>
+                <td class="padd">
+                  <div class="tdata">
+                    <p>1.6930</p>
+                  </div>
+                </td>
+                <td class="padd delete">
+                  <div class="tdata">
+                    <p>1.7010</p>
+                  </div>
+                </td>
+                <td class="padd delete">
+                  <div class="tdata">
+                    <p>1.7000</p>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="tdata">
+                    <p>EUR</p>
+                  </div>
+                </td>
+                <td>
+                  <div class="tdata">
+                    <p>1.8300</p>
+                  </div>
+                </td>
+                <td class="delete">
+                  <div class="tdata">
+                    <p>1.8700</p>
+                  </div>
+                </td>
+                <td class="delete">
+                  <div class="tdata">
+                    <p>1.8571</p>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="tdata">
+                    <p>RUB</p>
+                  </div>
+                </td>
+                <td>
+                  <div class="tdata">
+                    <p>0.0177</p>
+                  </div>
+                </td>
+                <td class="delete">
+                  <div class="tdata">
+                    <p>0.0192</p>
+                  </div>
+                </td>
+                <td class="delete">
+                  <div class="tdata">
+                    <p>0.0181</p>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="tdata">
+                    <p>GBP</p>
+                  </div>
+                </td>
+                <td>
+                  <div class="tdata">
+                    <p>2.0500</p>
+                  </div>
+                </td>
+                <td class="delete">
+                  <div class="tdata">
+                    <p>2.2600</p>
+                  </div>
+                </td>
+                <td class="delete">
+                  <div class="tdata">
+                    <p>2.1592</p>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <span>
+            *Rubl valyutası üzrə məzənnə təcili pul köçürmələri üçün nəzərdə
+            tutulub.</span
+          >
+        </div>
+      </div>
+    </section>
+
+    <footer id="exchange-footer">
+      <div class="container">
+        <div class="foot-text">
+          <p class="show-text">
+            Valyuta məzənnəsi nədir? Valyuta məzənnəsi, bir ölkənin pul vahidi
+            ilə digər ölkənin və ya iqtisadi bölgənin valyutasına qarşı
+            dəyəridir. Beynəlxalq valyuta məzənnəsi iki valyutanın dəyişdirilə
+            biləcəyi məzənnədir. Daha aydın dillə izah etsək, beynəlxalq valyuta
+            məzənnələri bir valyutanın bir vahidinin digər valyutaya nə qədər
+            dəyişdirilə biləcəyini göstərir. Bu cür hesablar üzrə əməliyyatların
+            aparılması, xarici valyutata hesabların açılması sərbəst bazar
+            təklifi, yaxud dövlətin əsas maliyyə orqanının (Azərbaycanda:
+            Məzkəzi Bank) ciddi nəzarəti əsasında formalaşa bilər.Valyutaların
+            alışı və ya satışı əmtəələrdəki kimidir. Gözünüz hər gün yenilənən
+            valyuta məzənnəsində olsun. 
+          </p>
+         
+          ...<a class="open" href="javascript:showContent()"   >Daha çox</a>
+  
+          <p class="hidden-text">
+            Yelo Bank gündəlik valyuta məzənnəsini Azərbaycan Respublikası
+            Mərkəzi Bankının həmin günə olan məzənnəsinə əsasən təqdim edir.
+            Burada siz valyuta mübadiləsi, valyuta üzrə alqı-satqı əməliyyatları
+            şərtləri ilə tanış ola bilərsiniz. Dünyanın aparıcı xarici
+            valyutalarının manata qarşı olan məzənnələrinin gündəlik cədvəlindən
+            xəbərdar ola bilərsiniz. Valyuta məzənnəsi hesablamaları üçün
+            elektron kalkulyator köməyinizə çatacaq. Nağdsız əməliyyatlar üzrə
+            valyuta məzənnəsi ilə yanaşı, həmçinin, nağd əməliyyatlar üçün də
+            valyuta məzənnəsi cədvəli mövcuddur. Yelo Bank-ın rəsmi veb-saytında
+            hər gün cari valyuta məzənnələri ilə bağlı ən son məlumatları əldə
+            edə bilərsiniz. Valyuta konverterinin köməyi ilə siyahıdakı ixtiyari
+            məzənnə üzrə bankın həm alış, həm də satış qiymətlərini hesablaya
+            bilərsiniz. İstifadəçi yönümlü müasir dizayn günün 24 saatı ərzində
+            valyuta mübadiləsi üzrə onlayn əməliyyatların aparılmasını təmin
+            edir. Valyuta məzənnəsi səhifəsində AZN, USD, EUR, RUR, GBP
+            valyutalarının qəbulu, eyni zamanda bunun müqabilində isə GBP, USD,
+            EUR, RUB valyutasında əskinasların alışı üzrə hesablamalar
+            mümkündür. Bu günə olan online valyuta məzənnəsi - Daha uyğun pul
+            məzənnələri üçün. Rus pulunun kursu, Rubulun kursu, Valyuta
+            konvertoru ilə məzənnələri müqayisə edə bilərsiniz.
+          </p>
+        </div>
+
+        <div class="foot">
+          <div class="row">
+            <div class="col-lg-3 col-md-6">
+              <div class="foot-nav-cont">
+                <h3><a href="#">Fərdi</a></h3>
+                <ul>
+                  <li><a href="#">Kreditlər</a></li>
+                  <li><a href="#">Kartlar</a></li>
+                  <li><a href="#">Əmanətlər</a></li>
+                  <li><a href="#">Pul köçürmələri</a></li>
+                  <li><a href="#">Kart xidmətləri</a></li>
+                  <li><a href="#">Tariflər</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="foot-nav-cont">
+                <h3><a href="#">Biznes</a></h3>
+                <ul>
+                  <li><a href="#">Biznes Kreditlər</a></li>
+                  <li><a href="#">Kartlar</a></li>
+                  <li><a href="#">Biznes xidmətlər</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+              <div class="foot-nav-cont">
+                <h3><a href="#">Bank Haqqında</a></h3>
+                <ul>
+                  <li><a href="#">Kreditlər</a></li>
+                  <li><a href="#">Kartlar</a></li>
+                  <li><a href="#">Əmanətlər</a></li>
+                  <li><a href="#">Pul köçürmələri</a></li>
+                  <li><a href="#">Kart xidmətləri</a></li>
+                  <li><a href="#">Tariflər</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+              <div class="foot-nav-cont">
+                <h3><a href="#">Onlayn xidmətlər</a></h3>
+                <ul>
+                  <li><a href="#">Pul köçürmələri</a></li>
+                  <li><a href="#">Kreditlər</a></li>
+                  <li><a href="#">Kart xidmətləri</a></li>
+                  <li><a href="#">Kartlar</a></li>
+                  <li><a href="#">Əmanətlər</a></li>
+                  <li><a href="#">Tariflər</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="foot-top">
+            <ul class="social">
+              <li><a href="#" class="f"></a></li>
+              <li><a href="#" class="i"></a></li>
+              <li><a href="#" class="l"></a></li>
+              <li><a href="#" class="y"></a></li>
+              <li><a href="#" class="t"></a></li>
+            </ul>
+            <div class="instal-programs">
+              <ul>
+                <li>
+                  <a href="#">
+                    <div class="app-img">
+                      <img src="	https://www.yelo.az/site/templates/style/img/apple.svg" alt="">
+                    </div>
+                    <div class="app-desc">
+                      <span>Yüklə</span>
+                      <p>App Store</p>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <div class="app-img">
+                      <img src="	https://www.yelo.az/site/templates/style/img/apple.svg" alt="">
+                    </div>
+                    <div class="app-desc">
+                      <span>Yüklə</span>
+                      <p>App Store</p>
+                           </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <div class="app-img">
+                      <img src="	https://www.yelo.az/site/templates/style/img/apple.svg" alt="">
+                    </div>
+                    <div class="app-desc">
+                      <span>Yüklə</span>
+                      <p>App Store</p>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="contact-info">
+              <div class="contact-item silinen">
+                <p>Bizi tap</p>
+                <a href="#">Həsən bəy Zərdabi pros. 81k</a>
+              </div>
+              <div class="contact-item">
+                <p>Əlaqə nömrəsi</p>
+                <a href="#">981</a>
+              </div>
+              <div class="contact-item">
+                <p>Bizə yazın</p>
+                <a href="#">bank@yelo.az</a>
+              </div>
+            </div>
+          
+          </div>
+          <div class="foot-bottom">
+            <a class="logo" href="#"> </a>
+            <ul>
+              <li class="left">
+                <p>
+                  © 2023 Yelo Bank | AR MB tərəfindən 25 fevral 1994-cü il
+                  tarixində verilmiş 203 saylı lisenziya
+                </p>
+              </li>
+              <li>
+                <a href="#">E-portal</a>
+              </li>
+              <li><a href="#">ADİF</a></li>
+              <li><a href="#">infobank.az</a></li>
+              <li><a href="#">Qarabağ Dirçəliş Fondu</a></li>
+              <li><a href="#">YAŞAT Fondu</a></li>
+            </ul>
+            <div class="studio">
+              <p>Site by</p>
+              <a href="#">Jeykhun Imanov Studio</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="../src/javasc/exchange.js"></script>
+  </body>
+</html>
